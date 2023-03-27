@@ -12,7 +12,7 @@ import numpy as np
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('D:\mini_project\Multiple Diease prediction\saved models\diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('saved models/diabetes_model.sav', 'rb'))
 
 heart_disease_model = pickle.load(open('D:\mini_project\Multiple Diease prediction\saved models\heart_disease.sav','rb'))
 
