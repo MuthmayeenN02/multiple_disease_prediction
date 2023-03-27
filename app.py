@@ -14,11 +14,11 @@ import numpy as np
 
 diabetes_model = pickle.load(open('saved models/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('D:\mini_project\Multiple Diease prediction\saved models\heart_disease.sav','rb'))
+heart_disease_model = pickle.load(open('saved models/heart_disease.sav','rb'))
 
-parkinsons_model = pickle.load(open('D:\mini_project\Multiple Diease prediction\saved models\parkinsons_disease.sav', 'rb'))
+parkinsons_model = pickle.load(open('saved models/parkinsons_disease.sav', 'rb'))
 
-model = pickle.load(open('D:\mini_project\Multiple Diease prediction\saved models\model.pkl','rb'))
+model = pickle.load(open('saved models/model.pkl','rb'))
 
 # sidebar for navigation
 with st.sidebar:
