@@ -423,5 +423,8 @@ if (selected=="Symptoms"):
         pass
     
     if st.button("Test result"):
-        symptom = model.predict(pred)
-        st.markdown(f'<h1 style="color:red;font-size:24px">⚠️{disease[symptom[0]]}</h1>',unsafe_allow_html=True)
+        if option1 == 'default' or option2 == 'default'  or option3 == 'default':
+            st.markdown("Please select above options")
+        else:
+            symptom = model.predict(pred)
+            st.markdown(f'<h1 style="color:red;font-size:24px">⚠️ You are likely to have {disease[symptom[0]]} (Disease)</h1>',unsafe_allow_html=True)
