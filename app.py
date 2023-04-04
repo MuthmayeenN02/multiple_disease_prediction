@@ -99,7 +99,7 @@ if (selected == 'Heart Disease Prediction'):
         cp = st.text_input('Chest Pain types: Values (0,1,2)')
         
     with col1:
-        trestbps = st.text_input('Resting Blood Pressure: Values(94, 200)')
+        trestbps = st.text_input('Resting Blood Pressure:             Values(94, 200)')
         
     with col2:
         chol = st.text_input('Serum Cholestoral in mg/dl: Values(125, 560)')
@@ -126,7 +126,7 @@ if (selected == 'Heart Disease Prediction'):
         ca = st.text_input('Major vessels colored by flourosopy: Values(0,1,2,3,4)')
         
     with col1:
-        thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
+        thal = st.text_input('maximum heart rate achieved: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
         
      
