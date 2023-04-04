@@ -234,18 +234,7 @@ if (selected == "Parkinsons Prediction"):
         else:
           st.markdown('<h1 style="color:green;font-size:24px">😄YOU ARE GOOD TO GO, HOWEVER IT IS GOOD TO HAVE A REGULAR HEALTH CHECKUP. CHEERS!</h1>',unsafe_allow_html=True)
 
-st.markdown("Attribute Information:
-Matrix column entries (attributes):
-
-name - ASCII subject name and recording number
-MDVP:Fo(Hz) - Average vocal fundamental frequency
-MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
-MDVP:Flo(Hz) - Minimum vocal fundamental frequency * MDVP:Jitter(%),MDVP:Jitter(Abs),MDVP:RAP,MDVP:PPQ,Jitter:DDP - Several measures of variation in fundamental frequency
-MDVP:Shimmer,MDVP:Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,MDVP:APQ,Shimmer:DDA - Several measures of variation in amplitude
-NHR,HNR - Two measures of ratio of noise to tonal components in the voice
-status - Health status of the subject (one) - Parkinson's, (zero) - healthy
-RPDE,D2 - Two nonlinear dynamical complexity measures
-DFA - Signal fractal scaling exponent * spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation"  )     
+st.markdown("<h3>Attribute Information:</h3><br><p>Matrix column entries (attributes):</p>"  )     
 symb = ['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
 'yellowing_of_eyes','acute_liver_failure','fluid_overload','swelling_of_stomach',
 'swelled_lymph_nodes','malaise','blurred_and_distorted_vision','phlegm','throat_irritation',
