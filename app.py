@@ -114,7 +114,7 @@ if (selected == 'Heart Disease Prediction'):
         thalach = st.text_input('Maximum Heart Rate achieved: Values(70,200)')
         
     with col3:
-        exang = st.text_input('Exercise Induced Angina: Values(0='no',1='yes')')
+        exang = st.text_input("Exercise Induced Angina: Values(0='no',1='yes')")
         
     with col1:
         oldpeak = st.text_input('ST depression induced by exercise')
