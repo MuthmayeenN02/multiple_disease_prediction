@@ -99,7 +99,7 @@ if (selected == 'Heart Disease Prediction'):
         cp = st.text_input('Chest Pain types: Values (0,1,2)')
         
     with col1:
-        trestbps = st.text_input('Resting blood pressure (in mm Hg on admission to the hospital):Values(94, 200)')
+        trestbps = st.text_input('Resting blood pressure (on admission to the hospital):Values(94, 200)')
         
     with col2:
         chol = st.text_input('Serum Cholestoral in mg/dl: Values(125, 560)')
@@ -117,10 +117,10 @@ if (selected == 'Heart Disease Prediction'):
         exang = st.text_input("Exercise Induced Angina: Values(0='no',1='yes')")
         
     with col1:
-        oldpeak = st.text_input('ST depression induced by exercise')
+        oldpeak = st.text_input('ST depression induced by exercise: Values(0-6)')
         
     with col2:
-        slope = st.text_input('Slope of the peak exercise ST segment')
+        slope = st.text_input('Slope of the peak exercise ST segment:Values(0-2)')
         
     with col3:
         ca = st.text_input('Major vessels colored by flourosopy: Values(0,1,2,3,4)')
