@@ -234,7 +234,7 @@ if (selected == "Parkinsons Prediction"):
         else:
           st.markdown('<h1 style="color:green;font-size:24px">😄YOU ARE GOOD TO GO, HOWEVER IT IS GOOD TO HAVE A REGULAR HEALTH CHECKUP. CHEERS!</h1>',unsafe_allow_html=True)
 
-st.markdown("<h3>Attribute Information:</h3><br><p>Matrix column entries (attributes):</p>"  )     
+st.markdown("<h3>Attribute Information:</h3><br><p>Matrix column entries (attributes):</p>" ,unsafe_allow_html=True )     
 symb = ['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
 'yellowing_of_eyes','acute_liver_failure','fluid_overload','swelling_of_stomach',
 'swelled_lymph_nodes','malaise','blurred_and_distorted_vision','phlegm','throat_irritation',
