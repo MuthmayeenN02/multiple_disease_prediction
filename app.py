@@ -234,7 +234,7 @@ if (selected == "Parkinsons Prediction"):
         else:
           st.markdown('<h1 style="color:green;font-size:24px">😄YOU ARE GOOD TO GO, HOWEVER IT IS GOOD TO HAVE A REGULAR HEALTH CHECKUP. CHEERS!</h1>',unsafe_allow_html=True)
 
- st.markdown("Attribute Information:
+st.markdown("Attribute Information:
 Matrix column entries (attributes):
 
 name - ASCII subject name and recording number
@@ -245,8 +245,8 @@ MDVP:Shimmer,MDVP:Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,MDVP:APQ,Shimmer:DDA - S
 NHR,HNR - Two measures of ratio of noise to tonal components in the voice
 status - Health status of the subject (one) - Parkinson's, (zero) - healthy
 RPDE,D2 - Two nonlinear dynamical complexity measures
-DFA - Signal fractal scaling exponent * spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation"       
- symb = ['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
+DFA - Signal fractal scaling exponent * spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation"  )     
+symb = ['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
 'yellowing_of_eyes','acute_liver_failure','fluid_overload','swelling_of_stomach',
 'swelled_lymph_nodes','malaise','blurred_and_distorted_vision','phlegm','throat_irritation',
 'redness_of_eyes','sinus_pressure','runny_nose','congestion','chest_pain','weakness_in_limbs',
