@@ -99,7 +99,7 @@ if (selected == 'Heart Disease Prediction'):
         cp = st.text_input('Chest Pain types: Values (0,1,2)')
         
     with col1:
-        trestbps = st.text_input('Resting Blood Pressure:             Values(94, 200)')
+        trestbps = st.text_input('Resting Blood Pressure: \nValues(94, 200)')
         
     with col2:
         chol = st.text_input('Serum Cholestoral in mg/dl: Values(125, 560)')
